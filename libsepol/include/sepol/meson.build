@@ -21,7 +21,6 @@ headers = [
   'policydb.h',
   'port_record.h',
   'ports.h',
-  'roles.h',
   'sepol.h',
   'user_record.h',
   'users.h',

@@ -1649,4 +1649,9 @@ int selinux_restorecon_xattr(const char *pathname, unsigned int xattr_flags,
 	return -1;
 }
 
+long unsigned selinux_restorecon_get_skipped_errors(void)
+{
+	return 0;
+}
+
 #endif

@@ -1,5 +1,8 @@
 project('selinux', 'c',
-  version: '3.1',
+  version: '3.9',
+  default_options: [
+    'c_std=gnu11,c11',
+  ]
 )
 
 cc = meson.get_compiler('c')
